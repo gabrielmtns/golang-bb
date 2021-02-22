@@ -14,3 +14,21 @@
 - Para startar o frontend 
    - Instale todos os pacotes do npm (npm install)
    - Execute o comando npm run serve
+  
+- Considerações
+  - Projeto iniciado com layers de responsabilidades bem separados.
+  
+  - Inversão de dependências em alguns pontos chaves da aplicação
+  
+  - Facilidade de alterar regras de negócio
+
+- Pontos para melhorias futuras
+  - Melhor reaproveitamento de código para as responses https.
+  
+  - Validações de regras (ex; não criar dois usernames iguais).
+
+  - Melhoria/padronização nas respostas https e respostas do infra layer.
+ 
+  - Tratar erros adequadamente 
+  
+  - Confiuração adequada de seeders/migrations
